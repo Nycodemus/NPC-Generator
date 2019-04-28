@@ -1,0 +1,9 @@
+*venv
+.DS_Store
+.idea
+__pycache__
+bin
+lib
+spells.txt
+hello.pdf
+pdf_gen.py
