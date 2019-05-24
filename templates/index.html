@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Welcome to the ThunderDome</title>
+    </head>
+<body>
+
+{% if greeting %}
+    I just wanted to say
+    <em style="'color:red; font-size: 2em;">{{ greeting }}</em>
+{% else %}                          <!--- This is a comment.  {{ greeting }} is a variable that will be filled in by a process that gets passed.--->
+    <em>Hello</em>, world!
+{% endif %}
+
+</body>
+</html>
